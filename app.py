@@ -20,7 +20,7 @@ class DiagnosisClient:
     # <param name="language">language</param>
     # <param name="healthServiceUrl">priaid healthservice url(https://healthservice.priaid.ch)</param>
     def __init__(self, username, password, authServiceUrl, language, healthServiceUrl):
-        self._handleRequiredArguments(username, password, authServiceUrl, healthServiceUrl, language)
+        #self._handleRequiredArguments(username, password, authServiceUrl, healthServiceUrl, language)
 
         self._language = language
         self._healthServiceUrl = healthServiceUrl
