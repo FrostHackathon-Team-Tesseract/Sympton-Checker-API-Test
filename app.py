@@ -200,3 +200,14 @@ class DiagnosisClient:
     def loadRedFlag(self, symptomId):
         action = "redflag?symptomId={0}".format(symptomId)
         return self._loadFromWebService(action)
+
+    # def main() :
+    #     print("Hello Mannu")
+        
+    #     self.loadSymptoms(self)
+
+
+    # if __name__ == "__main__":
+    #     main()
+obj = DiagnosisClient('t6DTs_GMAIL_COM_AUT','Dy37Arb4EGj26MoTq','https://authservice.priaid.ch','en-gb','https://healthservice.priaid.ch')
+obj.loadSymptoms()
